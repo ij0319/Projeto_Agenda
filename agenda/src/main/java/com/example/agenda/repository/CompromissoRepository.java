@@ -1,4 +1,7 @@
 package com.example.agenda.repository;
 
-public class CompromissoRepository {
+import com.example.agenda.model.Compromisso;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CompromissoRepository extends JpaRepository<Compromisso, Long> {
 }
